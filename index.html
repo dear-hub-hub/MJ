@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="AVOCADO — 좋은 생각을 살아보는 곳. 몸과 마음, 성장과 일상을 위한 독립 매거진.">
+  <title>AVOCADO — 좋은 생각을 살아보는 곳</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/avocado.css">
+  <link rel="stylesheet" href="assets/sample.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body data-page="home">
+  <header class="sample-header wrap">
+    <a class="sample-wordmark" href="index.html" aria-label="AVOCADO 홈">AVOCA<span>DO</span><b>.</b></a>
+    <nav class="sample-nav" aria-label="주제 탐색">
+      <a href="#latest" data-filter="MIND">MIND</a>
+      <a href="#latest" data-filter="GROW">GROW</a>
+      <a href="#latest" data-filter="LIFE">LIFE</a>
+      <a href="#latest" data-filter="BOOKS">BOOKS</a>
+    </nav>
+    <button class="menu-button sample-menu" type="button" aria-expanded="false" aria-controls="mobile-nav">MENU <span>☰</span></button>
+  </header>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="모바일 주제 탐색" hidden>
+    <a href="#latest" data-filter="MIND">MIND</a><a href="#latest" data-filter="GROW">GROW</a><a href="#latest" data-filter="LIFE">LIFE</a><a href="#latest" data-filter="BOOKS">BOOKS</a>
+  </nav>
+
+  <main>
+    <section class="sample-hero wrap" aria-labelledby="hero-title">
+      <div class="sample-hero-copy">
+        <h1 id="hero-title"><span>AVOCA</span><span class="sample-do">DO<b>.</b></span></h1>
+        <p class="sample-hero-tagline">좋은 생각을<br>살아보는 곳.</p>
+        <p class="sample-hero-description">조금 더 나은 마음, 조금 더 나은 하루를 위해.<br>작은 생각이 만드는 큰 변화를 믿습니다.</p>
+      </div>
+      <div class="sample-hero-mascot"><img src="assets/avocado-reading.png" alt="작은 책을 읽고 있는 아보카도 캐릭터"></div>
+    </section>
+
+    <section class="sample-categories wrap" aria-label="주제별 보기">
+      <a href="#latest" class="sample-category" data-filter="MIND"><span>MIND</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+      <a href="#latest" class="sample-category" data-filter="GROW"><span>GROW</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+      <a href="#latest" class="sample-category" data-filter="LIFE"><span>LIFE</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+      <a href="#latest" class="sample-category" data-filter="BOOKS"><span>BOOKS</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+    </section>
+
+    <section id="latest" class="sample-latest wrap" aria-labelledby="latest-title">
+      <div class="sample-section-label"><h2 id="latest-title">LATEST ARTICLES</h2><span>GOOD THOUGHTS. A KINDER LIFE.</span></div>
+      <div class="story-grid sample-story-grid">
+        <a class="story-card sample-feature" href="story.html" data-categories="KIDS GROW">
+          <div class="sample-feature-image"><img src="assets/greenhouse.png" alt="문이 열린 온실과 바깥 풍경"></div>
+          <div class="sample-feature-content"><span class="sample-card-category">GROW / KIDS</span><h3>AI 시대,<br>우리 아이를<br>잘 키운다는 것</h3><p>부모는 미래를 가르쳐야 하는데,<br>가진 자료는 과거뿐입니다.</p><span class="sample-read">읽기 <b>→</b></span></div>
+        </a>
+      </div>
+      <p class="empty-state" hidden>이 주제의 글은 준비 중입니다.</p>
+    </section>
+
+    <section class="sample-bottom wrap" aria-label="한 가지 더 생각해보기">
+      <a class="sample-question" href="story.html#one-more-thought"><span>AVOCADO ASKS</span><strong>지금, 당신의 마음은 어떤가요?</strong><i aria-hidden="true">↗</i></a>
+      <div class="sample-note"><p>작은 생각이<br>더 좋은 내일을 만듭니다.</p><span>AVOCADO <b>—</b> MORE STORIES SOON</span></div>
+    </section>
+  </main>
+
+  <footer class="sample-footer wrap"><a class="sample-wordmark" href="index.html">AVOCA<span>DO</span><b>.</b></a><span class="sample-footer-line"></span><span>GOOD THOUGHTS. A KINDER LIFE.</span></footer>
+</body>
+</html>
