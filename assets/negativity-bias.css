@@ -85,6 +85,15 @@
 .article-meta p{padding:18px 0 20px}
 .full-photo{height:min(49vw,600px);margin-top:0}
 
+/* Full-bleed editorial moments: let photography and the key takeaway
+   reach the viewport edges while keeping the essay copy comfortably narrow. */
+.full-photo,.story-photo,.pullquote{
+  width:100vw;
+  max-width:none;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+}
+
 @media(max-width:800px){
   .hero{min-height:0;padding:28px 24px 34px}
   .hero .journal-link{margin-bottom:38px}
@@ -92,6 +101,11 @@
   .hero-bottom{margin-top:24px}
   .hero .dek{font-size:15px;white-space:normal}
   .full-photo{height:58vh}
+  .full-photo,.story-photo,.pullquote{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+  }
 }
 
 /* Final editorial QA: stable reading rhythm and section alignment */
