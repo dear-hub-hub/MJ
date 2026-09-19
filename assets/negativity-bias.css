@@ -93,6 +93,11 @@
   margin-left:calc(50% - 50vw);
   margin-right:calc(50% - 50vw);
 }
+.full-photo,.story-photo{background-color:#101b17;background-repeat:no-repeat;background-position:center;background-size:cover}
+.full-photo{background-image:linear-gradient(rgba(10,20,16,.22),rgba(10,20,16,.22)),url("negativity-bias-night-thoughts.png")}
+.story-photo{background-image:linear-gradient(rgba(10,20,16,.22),rgba(10,20,16,.22)),url("negativity-bias-night-overwhelm.png")}
+.full-photo img,.story-photo img{position:relative;width:auto;max-width:100%;height:100%;margin:0 auto;object-fit:contain;z-index:1}
+.full-photo figcaption,.story-photo figcaption{z-index:2}
 
 @media(max-width:800px){
   .hero{min-height:0;padding:28px 24px 34px}
@@ -106,6 +111,8 @@
     margin-left:0;
     margin-right:0;
   }
+  .full-photo,.story-photo{height:auto;min-height:0;aspect-ratio:1371/1147}
+  .full-photo img,.story-photo img{width:100%;height:100%}
 }
 
 /* Final editorial QA: stable reading rhythm and section alignment */
@@ -208,4 +215,9 @@
   .result-tagline{font-size:17px}
   .result-copy{font-size:14px;line-height:1.8}
   .result-question{font-size:16px}
+}
+
+/* Keep the complete artwork visible at every breakpoint. */
+@media(max-width:800px){
+  .full-photo,.story-photo{height:auto;min-height:0;aspect-ratio:1371/1147}
 }
