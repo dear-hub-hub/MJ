@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dear-hub-hub.github.io/MJ/sitemap.xml
