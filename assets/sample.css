@@ -4,6 +4,7 @@ body[data-page="home"] .wrap{width:min(100% - 5.2vw,1280px)}
 .sample-header{height:66px;display:flex;align-items:center;gap:3rem}
 .sample-wordmark{font-size:1.3rem;line-height:1;font-weight:900;letter-spacing:-.075em;color:#223c2a;white-space:nowrap}.sample-wordmark span{color:var(--avo-seed)}.sample-wordmark b{color:#223c2a}
 .sample-header .sample-wordmark{color:#173a25;font-size:21px;font-weight:950;letter-spacing:-.065em}.sample-header .sample-wordmark span{color:inherit}.sample-header .sample-wordmark b{color:#a62b1d}
+.sample-header .avocado-logo{color:#173a25!important;font-family:"Pretendard Variable","Pretendard",sans-serif;font-size:21px;font-weight:950;line-height:1;letter-spacing:-.065em;white-space:nowrap}.sample-header .avocado-logo span{color:#a62b1d!important;padding:0!important}
 .sample-nav{display:flex;align-items:center;gap:2.35rem;margin-left:auto}.sample-nav a{font-size:.72rem;font-weight:700;letter-spacing:.03em}.sample-nav a:hover,.sample-nav a.is-active{color:var(--avo-seed)}
 .sample-menu{display:flex;align-items:center;gap:.75rem;margin-left:.3rem;padding-left:1.6rem;border-left:1px solid #aab4a7;color:#233c2a;font-size:.72rem}.sample-menu span{font-size:1.12rem;line-height:1;color:#233c2a}
 .mobile-nav:not([hidden]){display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;padding:1rem 4vw;background:#fff;border-block:1px solid var(--line);position:relative;z-index:5}.mobile-nav a{font-size:.8rem;font-weight:700}
